@@ -1,16 +1,23 @@
 
 #topNav{
-     padding: 4px;
+     padding: 3px;
+     height: 5%;
+     margin: 0px;
+     background-color: black;
+     float: right;
+
   }
   #topNav li {
        padding-right: 9px;
+       padding-left: 12px;
        display: inline;
-       float: right;
        text-decoration: none;
     }
 
   #topNav li:hover{
-          background-color: grey;
+          background-color: white;
+           border-radius: 25px;
+
        }
   #topNav li a {
        text-decoration: none;
@@ -19,6 +26,45 @@
        color: #ff9999
 
       }
-      a:hover{
-           color: grey;
+  #topNav li a:hover{
+           color: red;
       }
+
+
+  #menuNav {
+    height: 100%;
+    width: 180px;
+    margin: 0px;
+    background-color: red;
+    border-left: 2px solid black;
+    float: left;
+    z-index: -999; /* negative z-index pushes a tag/element to the background */
+
+     }
+
+  #menuNav li{
+    padding-top: 10px;
+    list-style: none;
+    font-family: cursive;
+    padding-bottom: 12px;
+  }
+
+  #menuNav li a{
+    text-decoration: none;
+    color: white;
+    font-style: oblique;
+    font-size: 20px;
+  }
+
+  #menuNav li a:hover{
+    color: black;
+  }
+
+  #homepage {
+      font-family: fantasy;
+      font-size: 30px;
+      font-weight: bold;
+      background-color: #F5FFFA;
+      padding-right: 10px;
+
+  }
